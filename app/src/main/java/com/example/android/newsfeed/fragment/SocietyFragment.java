@@ -47,10 +47,10 @@ public class SocietyFragment extends BaseArticlesFragment {
     @NonNull
     @Override
     public Loader<List<News>> onCreateLoader(int i, Bundle bundle) {
-        String societyUrl = NewsPreferences.getPreferredUrl(getContext(), getString(R.string.society));
-        Log.e(LOG_TAG, societyUrl);
-
+//        String societyUrl = NewsPreferences.getPreferredUrl(getContext(), getString(R.string.society));
+//        Log.e(LOG_TAG, societyUrl);
+        String test = "";
         // Create a new loader for the given URL
-        return new NewsLoader(getActivity(), societyUrl);
+        return new NewsLoader(getActivity(),test);
     }
 }

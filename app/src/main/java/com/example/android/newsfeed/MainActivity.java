@@ -101,21 +101,29 @@ public class MainActivity extends AppCompatActivity
         // Switch Fragments in a ViewPager on clicking items in Navigation Drawer
         if (id == R.id.nav_home) {
             viewPager.setCurrentItem(Constants.HOME);
-        } else if (id == R.id.nav_world) {
-            viewPager.setCurrentItem(Constants.WORLD);
-        } else if (id == R.id.nav_science) {
-            viewPager.setCurrentItem(Constants.SCIENCE);
-        } else if (id == R.id.nav_sport) {
+        }
+//        else if (id == R.id.nav_world) {
+//            viewPager.setCurrentItem(Constants.WORLD);
+//        }
+//        else if (id == R.id.nav_science) {
+//            viewPager.setCurrentItem(Constants.SCIENCE);
+//        }
+        else if (id == R.id.nav_sport) {
             viewPager.setCurrentItem(Constants.SPORT);
-        } else if (id == R.id.nav_environment) {
+        }
+        else if (id == R.id.nav_environment) {
             viewPager.setCurrentItem(Constants.ENVIRONMENT);
-        } else if (id == R.id.nav_society) {
-            viewPager.setCurrentItem(Constants.SOCIETY);
-        } else if (id == R.id.nav_fashion) {
+        }
+//        else if (id == R.id.nav_society) {
+//            viewPager.setCurrentItem(Constants.SOCIETY);
+//        }
+        else if (id == R.id.nav_fashion) {
             viewPager.setCurrentItem(Constants.FASHION);
-        } else if (id == R.id.nav_business) {
-            viewPager.setCurrentItem(Constants.BUSINESS);
-        } else if (id == R.id.nav_culture) {
+        }
+//        else if (id == R.id.nav_business) {
+//            viewPager.setCurrentItem(Constants.BUSINESS);
+//        }
+        else if (id == R.id.nav_culture) {
             viewPager.setCurrentItem(Constants.CULTURE);
         }
 

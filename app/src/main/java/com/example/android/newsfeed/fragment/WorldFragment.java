@@ -47,10 +47,10 @@ public class WorldFragment extends BaseArticlesFragment {
     @NonNull
     @Override
     public Loader<List<News>> onCreateLoader(int i, Bundle bundle) {
-        String worldUrl = NewsPreferences.getPreferredUrl(getContext(), getString(R.string.world));
-        Log.e(LOG_TAG, worldUrl);
-
+//        String worldUrl = NewsPreferences.getPreferredUrl(getContext(), getString(R.string.world));
+//        Log.e(LOG_TAG, worldUrl);
+        String test = "";
         // Create a new loader for the given URL
-        return new NewsLoader(getActivity(), worldUrl);
+        return new NewsLoader(getActivity(),test);
     }
 }

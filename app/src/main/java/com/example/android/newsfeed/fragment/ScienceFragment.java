@@ -47,10 +47,10 @@ public class ScienceFragment extends BaseArticlesFragment {
     @NonNull
     @Override
     public Loader<List<News>> onCreateLoader(int i, Bundle bundle) {
-        String scienceUrl = NewsPreferences.getPreferredUrl(getContext(), getString(R.string.science));
-        Log.e(LOG_TAG, scienceUrl);
-
+//        String scienceUrl = NewsPreferences.getPreferredUrl(getContext(), getString(R.string.science));
+//        Log.e(LOG_TAG, scienceUrl);
+        String test = "";
         // Create a new loader for the given URL
-        return new NewsLoader(getActivity(), scienceUrl);
+        return new NewsLoader(getActivity(),test);
     }
 }
